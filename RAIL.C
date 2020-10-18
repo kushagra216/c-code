@@ -1,22 +1,21 @@
+#include<iostream.h>
 #include<stdio.h>
 #include<conio.h>
 #include<string.h>
 int main(){
-char name[10];
-char sp[10];
-char dp[10];
+char name[10],sp[10],dp[10];
 int date;
   printf("Enter the name of the paseger ");
   gets(name);
   printf("Enter starting point");
   gets(sp);
-  // clrscr()
+   clrscr()
   printf("Enter your destination point");
   gets(dp);
-  // clrscr();
+   clrscr();
   printf("Enter the date of travel in DD-MM-YY format");
   scanf("%d",&date);
-  // clrscr();
+   clrscr();
   printf("%s you are travelling form %s to %s on %d\n\n\n",name,sp,dp,date);
   printf("************************************************\n");
   printf("Available Trains From %s to %s are :\n",sp,dp);
